@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <types>
   <type name="ACOGOptic">
-    <nominal>6</nominal>
+    <nominal>20</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>8</min>
@@ -32,8 +32,8 @@
     <lifetime>28800</lifetime>
     <restock>3600</restock>
     <min>1</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>50</quantmin>
+    <quantmax>90</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
@@ -49,7 +49,7 @@
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
-    <category name="weapons" />
+    <category name="weapons" />in
   </type>
   <type name="AK101_Green">
     <nominal>0</nominal>
@@ -67,8 +67,8 @@
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>5</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>50</quantmin>
+    <quantmax>90</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
@@ -123,12 +123,12 @@
     <usage name="Military" />
   </type>
   <type name="AKM">
-    <nominal>5</nominal>
+    <nominal>30</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
     <min>1</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>50</quantmin>
+    <quantmax>90</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
@@ -392,12 +392,12 @@
     <category name="weapons" />
   </type>
   <type name="ASVAL">
-    <nominal>1</nominal>
+    <nominal>6</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
     <min>1</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
@@ -515,12 +515,12 @@
     <usage name="Military" />
   </type>
   <type name="AmmoBox">
-    <nominal>20</nominal>
+    <nominal>60</nominal>
     <lifetime>3888000</lifetime>
-    <restock>0</restock>
+    <restock>14400</restock>
     <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="containers" />
@@ -529,10 +529,10 @@
   <type name="AmmoBox_00buck_10rnd">
     <nominal>60</nominal>
     <lifetime>28800</lifetime>
-    <restock>0</restock>
+    <restock>4200</restock>
     <min>8</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
@@ -554,7 +554,7 @@
   <type name="AmmoBox_12gaSlug_10Rnd">
     <nominal>60</nominal>
     <lifetime>28800</lifetime>
-    <restock>0</restock>
+    <restock>14400 /restock>
     <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
@@ -567,7 +567,7 @@
   <type name="AmmoBox_22_50Rnd">
     <nominal>60</nominal>
     <lifetime>14400</lifetime>
-    <restock>0</restock>
+    <restock>14400</restock>
     <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
@@ -630,10 +630,10 @@
   <type name="AmmoBox_45ACP_25rnd">
     <nominal>60</nominal>
     <lifetime>28800</lifetime>
-    <restock>0</restock>
+    <restock>7200</restock>
     <min>8</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>100</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
